@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dff9c06-2be8-4168-a4cf-af316161763c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usuarios/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usuarios/UsuarioEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/usuarios/UsuarioSenha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usuarios/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/usuarios/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usuarios/UsuarioEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/usuarios/UsuarioEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usuarios/UsuarioSenha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/usuarios/UsuarioSenha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,9 @@
       </list>
     </option>
   </component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -56,10 +58,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build pizzaria.executor": "Run",
     "Gradle.pizzaria [:Main.main()].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -71,16 +79,30 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="application.usuarios.Main" />
       <module name="pizzaria.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="pizzaria.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="application.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>

@@ -1,4 +1,4 @@
-package usuarios;
+package application.usuarios;
 
 public class Usuario {
 
