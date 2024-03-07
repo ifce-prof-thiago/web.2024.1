@@ -1,15 +1,25 @@
 package pizzaria.controllers;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("usuarios")
 public class UsuarioController {
 
+
+    @Autowired
+    private JdbcTemplate database;
+
     @PostMapping
-    public void criarUsuario() {
-        System.out.println("Deve criar um novo usuário");
+    public void criarUsuario(@RequestBody UsuarioRequest request) {
+        database.update(
+                "INSERT INTO usuario (email, senha) VALUES (?, ?)",
+                request.email(),
+                request.senha()
+        );
     }
 
     @PutMapping
