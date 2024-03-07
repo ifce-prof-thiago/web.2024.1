@@ -1,4 +1,4 @@
-package application.usuarios;
+package pizzaria.models;
 
 public record UsuarioSenha(String value) {
     public UsuarioSenha {
