@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("usuarios")
 public class UsuarioController {
 
+    private final JdbcTemplate database;
 
-    @Autowired
-    private JdbcTemplate database;
+    public UsuarioController(JdbcTemplate database) {
+        this.database = database;
+    }
 
     @PostMapping
     public void criarUsuario(@RequestBody UsuarioRequest request) {
@@ -20,21 +22,6 @@ public class UsuarioController {
                 request.email(),
                 request.senha()
         );
-    }
-
-    @PutMapping
-    public void atualizarUsuario() {
-        System.out.println("Deve ATUALIZAR um usuário");
-    }
-
-    @DeleteMapping
-    public void deletarUsuario() {
-        System.out.println("Deve apagar um usuário");
-    }
-
-    @GetMapping
-    public void listarUsuarios() {
-        System.out.println("Deve listar usuários");
     }
 
 }
