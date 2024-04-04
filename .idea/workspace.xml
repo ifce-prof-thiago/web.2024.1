@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dff9c06-2be8-4168-a4cf-af316161763c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/PizzaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/PizzaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/ingredientes/CriarIngredienteRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/ingredientes/IngredienteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/tamanho/CriarTamanhoRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/tamanho/TamanhoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/PizzaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/PizzaRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/UsuarioController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/controllers/UsuarioRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/models/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/models/UsuarioEmail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pizzaria/models/UsuarioSenha.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +47,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,7 +144,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -158,7 +168,11 @@
       <workItem from="1709839808726" duration="1206000" />
       <workItem from="1709848473255" duration="5001000" />
       <workItem from="1709853780010" duration="46000" />
-      <workItem from="1710372964938" duration="891000" />
+      <workItem from="1710372964938" duration="1669000" />
+      <workItem from="1710452581691" duration="3203000" />
+      <workItem from="1710459193973" duration="14000" />
+      <workItem from="1710768903416" duration="14000" />
+      <workItem from="1712268061217" duration="2674000" />
     </task>
     <servers />
   </component>
